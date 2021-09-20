@@ -1,0 +1,8 @@
+UserInfoModule DEFINITIONS ::=BEGIN
+    UserInfo ::= SEQUENCE{
+        userID OctetString,
+        userName OctetString,
+        password OctetString,
+        age	INTEGER
+    }
+END

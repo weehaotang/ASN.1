@@ -1,0 +1,6 @@
+message UserInfo {
+  required string userID = 1;
+  required string userName = 2;
+  required string password = 3;
+  optional int32  age = 4;
+}
